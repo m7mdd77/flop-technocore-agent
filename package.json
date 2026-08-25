@@ -8,7 +8,8 @@
     "test": "node --test",
     "smoke": "node ./src/cli.js did",
     "conformance": "node ./src/conformance.js",
-    "faucet:ready": "node ./src/faucet-readiness.js"
+    "faucet:ready": "node ./src/faucet-readiness.js",
+    "task:ready": "node ./src/task-readiness.js"
   },
   "engines": {
     "node": ">=20"
