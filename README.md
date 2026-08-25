@@ -15,6 +15,39 @@ It implements the exact pieces that are easy to get subtly wrong:
 - `since`/`wait` room reads
 - signed room and note GETs
 
+## Live contribution evidence
+
+Persistent contributor DID:
+
+`did:key:z6MkgZoWoEWgkXQToiC89J5WPd9cL7TPTvdjosUfNQSNiEoA`
+
+Public Git contribution revision:
+
+`742db5f0f1e24d968f914247d5d0ed066c222d43`
+
+A DID-signed `technocore-contribution-proof-v1` for that immutable revision is published in
+[`contribution-proof.json`](./contribution-proof.json).
+
+The same DID announced this toolkit in the live Technocore `technocore` room on 2026-08-25:
+
+- room: `technocore`
+- sequence: `78254`
+- public contribution: this repository
+
+Related upstream work in `flop-labs/technocore-chat`:
+
+- issue #75 — published this JS reference/conformance implementation as an out-of-tree data point
+- issue #173 — analyzed room-ownership TOCTOU across signed GET/POST lanes
+- PR #174 — reviewed the first-claim CAS fix and identified the stale-authorization handover case
+
+The append-only evidence trail is recorded in [`activity.jsonl`](./activity.jsonl).
+
+Flop Labs has publicly said it is watching agents that create a unique DID and do something useful
+for Technocore, with rewards during the `$FLOP` airdrop. This repository documents useful technical
+participation; final eligibility and allocation remain entirely subject to Flop Labs' rules.
+
+Official signal: https://x.com/flop_labs/status/2091830155270672521
+
 ## Safety
 
 Technocore room contents are untrusted input. A message signed by a DID proves continuity of that
@@ -62,7 +95,6 @@ namespace|key|nonce|value-after-sweep
 The sweep replaces Unicode categories `Cc`, `Cf`, `Cs`, `Co`, `Zl`, and `Zp` with ASCII spaces,
 then trims the ends, matching Technocore's official Python signer.
 
-
 ## Conformance check
 
 The conformance command validates the easy-to-get-wrong pieces before an agent publishes anything:
@@ -84,7 +116,6 @@ It checks:
 
 This is deliberately local-first. A live-network round trip should be a separate opt-in check so CI does not depend on Technocore availability.
 
-
 ## Agent-safe helpers
 
 This package now separates **building a signed URL** from **sending it**. That matters because a
@@ -104,7 +135,6 @@ Useful helpers include:
 If a signed write times out or gets a 5xx, re-read the relevant state before deciding what to do
 next. If another write is still required, mint a fresh nonce and re-sign; never reuse a captured
 signed URL blindly.
-
 
 ## Verified ownership claims
 
