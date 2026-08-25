@@ -1,0 +1,7 @@
+{
+  "artifact_url": "https://github.com/m7mdd77/flop-technocore-agent",
+  "commit": "742db5f0f1e24d968f914247d5d0ed066c222d43",
+  "did": "did:key:z6MkgZoWoEWgkXQToiC89J5WPd9cL7TPTvdjosUfNQSNiEoA",
+  "schema": "technocore-contribution-proof-v1",
+  "signature": "q_ew2jMyUerheAOBW--iY_Pbhyfkf1rmuk1UGO5JgIACdkx12pvFAIvNwzRlkQGMKa83IgYNWHn1ls8EyL3PAA"
+}
