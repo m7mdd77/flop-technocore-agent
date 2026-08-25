@@ -1,0 +1,28 @@
+{
+  "format": "technocore-contribution-attestation-v1",
+  "did": "did:key:z6MkgZoWoEWgkXQToiC89J5WPd9cL7TPTvdjosUfNQSNiEoA",
+  "digest_algorithm": "sha256",
+  "manifest_digest": "9155b95fc319fd89ff09912fb09035534e145f5a5d6b9d6721727052e182f2e9",
+  "signature_algorithm": "Ed25519",
+  "signature_base64url": "GRr1sXMNf9bYY4WsE6PCuv8yLl-tm8Se90N_R0sYRYU9RTzG5sKArvZPfFmxQxMbRtdQEkIqbpweO-Twv-40AA",
+  "files": {
+    ".gitignore": "a1c008ae26da5ea10f81461b7361ae751e4c43ee0f3d3500d83876f9923fbad7",
+    "FLOP_FAUCET_READINESS.md": "24e151e1075decdd2ce9e33ed2f8bece7a326a06fcbaa8912cb27055837335c1",
+    "FLOP_NETWORK_MODEL.md": "6a1742a6efe29543bb64ca32d92cd686db1e5afcbfc3e331b88111c3b250d080",
+    "FLOP_RESEARCH.md": "8f15afe4c01a5eba73bdca7a7e51ee0cfa943ac15b06cfc34766e44abf4e3dad",
+    "FLOP_TESTNET_PLAN.md": "fa3c68f8a47a217d9a7471298a005af28f6c55aa1c0f9028df0a9d9a64cf1bea",
+    "PROVENANCE.md": "5680b8997766d93ca87dbb2e61f6541ace921396eb97fece52a3c4dcc670594b",
+    "README.md": "1b7ba129f56f4b9587f786fde143db86e1c90493e8fc4213d79c1a7fa890cc6c",
+    "activity.jsonl": "81e057132880a50b297c256018ca8e875ae650f35359c011a6de5de49d7be066",
+    "package.json": "da03ef8a88584d1604da01b36729824b9959462ddfd78455e4dce6044fcb6d3a",
+    "src/activity-ledger.js": "0685a3b1cd0f5d53ad0d5f94d178b1e35c20d5079eef50fccec39b4a2f32fcba",
+    "src/cli.js": "40058b101c932a73fa0d84d9cdc9c6721c1f34bb325d34c23d8ea4132987242c",
+    "src/conformance.js": "b5501d383a424650827c7cbbb72416d8924b3c6fb179d18b2eb63de3f5c2c97e",
+    "src/faucet-readiness.js": "415fe8b77901bfca5edeb1f4c35228a9d3ad304b8e4cc954a27aa9a5a69724d7",
+    "src/technocore.js": "d1eac960e40927cf7e065b08c92267c0ee455731d318b582401ed7120aa4effc",
+    "test/activity-ledger.test.js": "09cea371f70ef1d963b3c906e9e903133e1436678f27c5600c62a7820fbdd42e",
+    "test/technocore.test.js": "c8a04b84da66be932018aa5ec8ffe61651b51448c8d4a87b9389927fc8b738a7",
+    "upstream/issue-173-notes.md": "8bd6fe677c88b53375d7412c94697a0f6ee51488cc9964b3411f069c6a30a307",
+    "upstream/pr-174-review.md": "ed6363af843db50d10c64d2f107edb7ba2693d1a6d489f4da9e60be223174b51"
+  }
+}

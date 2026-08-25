@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+*.key
+*SECRET*
+SIGN_SEED*
